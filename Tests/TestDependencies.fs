@@ -1,6 +1,6 @@
 namespace Tests
 
-open todo_api.Repositories
+open TodoApi.Repositories
 open System.Collections.Generic
 
 module TestDependencies =

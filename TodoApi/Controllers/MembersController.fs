@@ -1,13 +1,13 @@
-namespace todo_api.Controllers
+namespace TodoApi.Controllers
 
 open System
 open System.Collections.Generic
 open System.Linq
 open System.Threading.Tasks
-open todo_api
-open todo_api.Types
-open todo_api.Workflows
-open todo_api.Repositories
+open TodoApi
+open TodoApi.Types
+open TodoApi.Workflows
+open TodoApi.Repositories
 open Microsoft.AspNetCore.Http
 open Microsoft.AspNetCore.Mvc
 open System.Web.Http

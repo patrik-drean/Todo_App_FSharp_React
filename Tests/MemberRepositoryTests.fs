@@ -2,9 +2,9 @@ namespace Tests
 
 open System
 open Xunit
-open todo_api.Repositories
+open TodoApi.Repositories
 open Swensen.Unquote
-open todo_api.Types
+open TodoApi.Types
 
 module MemberRepositoryTests =
 

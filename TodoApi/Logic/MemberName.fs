@@ -1,7 +1,7 @@
-namespace todo_api.Logic
+namespace TodoApi.Logic
 
 open System
-open todo_api.Types
+open TodoApi.Types
 
 module MemberName = 
     let capitalizeFirstLetter (name : string) : string =

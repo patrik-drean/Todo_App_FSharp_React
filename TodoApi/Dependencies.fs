@@ -1,7 +1,7 @@
-namespace todo_api
+namespace TodoApi
 
-open todo_api.Repositories
-open todo_api.Workflows
+open TodoApi.Repositories
+open TodoApi.Workflows
 open System.Collections.Generic
 
 module Dependencies =

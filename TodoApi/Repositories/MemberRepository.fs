@@ -1,7 +1,7 @@
-namespace todo_api.Repositories
+namespace TodoApi.Repositories
 
 open System.Collections.Generic
-open todo_api.Types
+open TodoApi.Types
 open FSharp.Data.Sql
 
 module MemberRepository =

@@ -1,4 +1,4 @@
-namespace todo_api.Repositories
+namespace TodoApi.Repositories
 
 open Dapper
 open System.Data.SQLite

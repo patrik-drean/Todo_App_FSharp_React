@@ -23,6 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\todo_api\todo_api.fsproj" />
+    <ProjectReference Include="..\TodoApi\TodoApi.fsproj" />
   </ItemGroup>
 </Project>

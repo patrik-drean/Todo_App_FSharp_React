@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "todo_api": {
+    "TodoApi": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

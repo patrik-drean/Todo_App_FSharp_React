@@ -1,4 +1,4 @@
-namespace todo_api
+namespace TodoApi
 
 open Microsoft.AspNetCore
 open Microsoft.AspNetCore.Hosting

@@ -3,8 +3,8 @@ namespace Tests
 open System
 open Xunit
 open Swensen.Unquote
-open todo_api.Logic
-open todo_api.Types
+open TodoApi.Logic
+open TodoApi.Types
 
 module MemberNameTests =
 

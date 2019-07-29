@@ -1,7 +1,7 @@
-namespace todo_api.Workflows
+namespace TodoApi.Workflows
 
 open System
-open todo_api.Types
+open TodoApi.Types
 
 module MemberWorkflows =
 

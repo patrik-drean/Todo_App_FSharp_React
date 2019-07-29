@@ -1,4 +1,4 @@
-namespace todo_api
+namespace TodoApi
 
 open System
 open System.Collections.Generic
@@ -38,7 +38,7 @@ type Startup private () =
 
         app.UseSwagger() |> ignore
         app.UseSwaggerUI( fun c -> 
-            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Workshop API V1") |> ignore
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "Todo API V1") |> ignore
             c.RoutePrefix = "" |> ignore
         ) |> ignore
         app.UseHttpsRedirection() |> ignore

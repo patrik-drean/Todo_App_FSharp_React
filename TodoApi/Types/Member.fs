@@ -1,4 +1,4 @@
-namespace todo_api.Types
+namespace TodoApi.Types
 
 type Member = {
     Id : int
