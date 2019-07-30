@@ -58,4 +58,24 @@ type MembersController () =
 
 
 
+[<Route("api/[controller]")>]
+[<ApiController>]
+type TasksController () =
+    inherit ControllerBase()
+
+    [<HttpGet>]
+    member this.Get() =
+        let tasks : Task[] = Dependencies.getAllTasks () |> Array.ofList
+        ActionResult<_>(tasks) 
+
+    [<HttpGet("{id}")>]
+    member this.Get(id:int) =
+        let task: Task Option = Dependencies.findTaskById id
+
+        match task with
+        | Some t -> this.Ok(t) :> ActionResult
+        | None -> this.NotFound() :> ActionResult
+
+
+
 

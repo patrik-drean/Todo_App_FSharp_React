@@ -24,7 +24,7 @@ type Startup private () =
         services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2) |> ignore
 
         let info = OpenApiInfo()
-        info.Title <- "My API V1"
+        info.Title <- "Task Api V1"
         info.Version <- "v1"
         services.AddSwaggerGen(fun c -> c.SwaggerDoc("v1", info)) |> ignore
 

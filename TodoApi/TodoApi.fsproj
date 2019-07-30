@@ -8,30 +8,30 @@
 
   <ItemGroup>
     <Compile Include="Types/Member.fs" />
+    <Compile Include="Types\Task.fs" />
     <Compile Include="Repositories/Database.fs" />
     <Compile Include="Repositories/MemberRepository.fs" />
+    <Compile Include="Repositories\TaskRepository.fs" />
     <Compile Include="Logic/Validation.fs" />
     <Compile Include="Logic/MemberName.fs" />
     <Compile Include="Workflows/MemberWorkflows.fs" />
+    <Compile Include="Workflows\TaskWorkflows.fs" />
     <Compile Include="Dependencies.fs" />
     <Compile Include="Controllers/MembersController.fs" />
+    <None Include="Controllers\TasksController.fs" />
     <Compile Include="Startup.fs" />
     <Compile Include="Program.fs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Dapper" Version="1.60.6" />
-    <PackageReference Include="FSharp.Data.SqlClient" Version="2.0.5" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.111" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="2.2.6" />
     <PackageReference Include="Microsoft.AspNetCore.App">
       <PrivateAssets Condition="'%(PackageReference.Version)' == ''">all</PrivateAssets>
       <Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
     </PackageReference>
-    <PackageReference Include="sqlite" Version="3.13.0" />
-    <PackageReference Include="SQLProvider" Version="1.1.65" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc2" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.111" />
-    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.111" />
-    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="2.2.6" />
+    <PackageReference Include="sqlite" Version="3.13.0" />
+    <PackageReference Include="FSharp.Data.SqlClient" Version="2.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc2" />
+    <PackageReference Include="SQLProvider" Version="1.1.65" />
   </ItemGroup>
-
 </Project>
