@@ -1,6 +1,7 @@
 sqlite3 fsharpjumpstart.db
 
 create table members (id integer not null primary key, first_name text not null, last_name text not null, email text unique, plan_id text);
+create table tasks (id integer not null primary key, description text not null);
 
 insert into members values 
 (1, 'John', 'Smith', 'john@email.com', 'plan_1'),
@@ -13,4 +14,10 @@ insert into members values
 (8, 'Samantha', 'Westbrook', 'samantha@email.com', 'plan_1'),
 (9, 'Ginny', 'Lawson', 'ginny@email.com', 'plan_1'),
 (10, 'Heather', 'Stonson', 'heather@email.com', 'plan_1')
+;
+
+insert into tasks values 
+(1, 'Take out the garbage'),
+(2, 'Wash the dishes'),
+(3, 'Build a BC')
 ;
