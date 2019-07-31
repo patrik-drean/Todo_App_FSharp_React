@@ -3,7 +3,9 @@ import '../styles/App.css';
 import TaskList from './TaskList';
 
 const appStyle = {
-  margin: '20px'
+  padding: '20px',
+  backgroundColor: '#171717',
+  height: '100vh'
 };
 
 class App extends React.Component {

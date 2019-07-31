@@ -24,11 +24,9 @@ const submitButtonStyle = {
   WebkitBorderRadius: '6px',
   borderRadius: '6px',
   border: '1px solid #3866a3',
-  display: 'inline-block',
   cursor: 'pointer',
   color: 'white',
   fontFamily: 'Arial',
-  fontSize: '15px',
   fontWeight: 'bold',
   padding: '6px 24px',
   textDecoration: 'none',
@@ -36,14 +34,27 @@ const submitButtonStyle = {
 };
 
 class Form extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {taskValue: ""};
+    
+    this.handleTaskChange = this.handleTaskChange.bind(this);
+  }
+  
+  handleTaskChange(event) {
+    this.setState({taskValue: event.target.value});
+  }
+  
   render() {
     return (
       <form>
-        <input style={inputStyle} />
+        <input value={this.state.taskValue} 
+               onChange={this.handleTaskChange}
+               style={inputStyle} />
         <button
           onClick={event => {
             event.preventDefault();
-            this.props.addTask(this.props.id);
+            this.props.addTask(this.state.taskValue);
           }}
           style={submitButtonStyle}
         >

@@ -10,7 +10,7 @@ class TaskList extends React.Component {
       tasks: []
     };
 
-    fetch('api/Tasks')
+    let response = fetch('api/Tasks')
         .then(response => response.json())
         .then(data => {
           this.setState({ tasks: data, loading: false });
@@ -19,9 +19,9 @@ class TaskList extends React.Component {
   }
 
   render() {
-    let deleteTask = idToDelete => {
+    let deleteTask = id => {
       let updatedTasks = this.state.tasks.filter(task => {
-        return task.id !== idToDelete;
+        return task.id !== id;
       });
 
       this.setState({ tasks: updatedTasks });
@@ -29,9 +29,7 @@ class TaskList extends React.Component {
 
     let addTask = taskDescription => {
       let tasks = this.state.tasks;
-      let newTask = { id: tasks.length, description: taskDescription };
-      console.log('new task', newTask);
-      //   console.log(tasks.push(newTask));
+      let newTask = { id: tasks.length + 1, description: taskDescription };
       this.setState({ tasks: [...tasks, newTask] });
     };
 
