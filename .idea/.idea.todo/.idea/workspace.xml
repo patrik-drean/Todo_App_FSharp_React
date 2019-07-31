@@ -24,27 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cb1cfb1-84b6-404f-9047-b9bfa249d7ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.todo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.todo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.todo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/scss/custom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/NavMenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/NavMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/TaskList.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +33,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/componets/Task.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/componets/TaskList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -65,6 +63,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Tests/MemberRepositoryTests.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TodoApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/TestDependencies.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TodoApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TodoApp/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -78,6 +77,7 @@
         <option value="$PROJECT_DIR$/TodoApp/Startup.cs" />
         <option value="$PROJECT_DIR$/TodoApp/TodoApp.csproj" />
         <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js" />
+        <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/TaskList.js" />
       </list>
     </option>
   </component>
@@ -113,6 +113,27 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="todo" type="24d0babc:SolutionExplorerModelNode" />
               <item name="TodoApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="todo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TodoApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="todo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TodoApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="todo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TodoApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ClientApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="componets" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -240,12 +261,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564585952998</updated>
       <workItem from="1564585957921" duration="3263000" />
-      <workItem from="1564590149891" duration="666000" />
+      <workItem from="1564590149891" duration="995000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3929000" />
+    <option name="totallyTimeSpent" value="4258000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,6 +279,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1236" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -314,27 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TodoApp/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <marker date="1564587261431" expanded="false" signature="6:296" ph="..." />
-            <marker date="1564587261431" expanded="true" signature="315:2202" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="342:2200" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="401:464" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="687:1024" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="937:1012" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="1212:2194" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="1259:1336" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="1353:1607" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="1765:1918" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="1964:2182" ph="{...}" />
-            <marker date="1564587261431" expanded="true" signature="2061:2168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TodoApp/Pages/_ViewImports.cshtml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -387,6 +388,53 @@
     <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js" />
     <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/package.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1564587261429" expanded="false" signature="6:255" ph="..." />
+            <marker date="1564587261429" expanded="true" signature="274:601" ph="{...}" />
+            <marker date="1564587261429" expanded="true" signature="301:599" ph="{...}" />
+            <marker date="1564587261429" expanded="true" signature="354:428" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <marker date="1564587261431" expanded="false" signature="6:296" ph="..." />
+            <marker date="1564587261431" expanded="true" signature="315:2202" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="342:2200" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="401:464" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="687:1024" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="937:1012" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1212:2194" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1259:1336" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1353:1607" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1765:1918" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1964:2182" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="2061:2168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/componets/Task.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/componets/TaskList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

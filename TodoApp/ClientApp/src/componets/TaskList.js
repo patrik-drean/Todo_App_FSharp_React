@@ -7,12 +7,15 @@ class TaskList extends React.Component {
     super(props);
 
     this.state = {
-      tasks: [
-        { id: 0, description: 'Clean the car' },
-        { id: 1, description: 'Go shopping' },
-        { id: 2, description: 'Deliver a baby' }
-      ]
+      tasks: []
     };
+
+    fetch('api/Tasks')
+        .then(response => response.json())
+        .then(data => {
+          this.setState({ tasks: data, loading: false });
+    });
+    
   }
 
   render() {
