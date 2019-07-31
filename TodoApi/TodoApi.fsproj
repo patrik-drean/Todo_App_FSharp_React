@@ -7,18 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Types/Member.fs" />
     <Compile Include="Types\Task.fs" />
     <Compile Include="Repositories/Database.fs" />
-    <Compile Include="Repositories/MemberRepository.fs" />
     <Compile Include="Repositories\TaskRepository.fs" />
     <Compile Include="Logic/Validation.fs" />
     <Compile Include="Logic/MemberName.fs" />
-    <Compile Include="Workflows/MemberWorkflows.fs" />
     <Compile Include="Workflows\TaskWorkflows.fs" />
     <Compile Include="Dependencies.fs" />
-    <Compile Include="Controllers/MembersController.fs" />
-    <None Include="Controllers\TasksController.fs" />
+    <Compile Include="Controllers\TasksController.fs" />
     <Compile Include="Startup.fs" />
     <Compile Include="Program.fs" />
     <PackageReference Include="Dapper" Version="1.60.6" />

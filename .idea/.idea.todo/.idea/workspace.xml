@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3cb1cfb1-84b6-404f-9047-b9bfa249d7ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TodoApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/scss/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/NavMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/NavMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/registerServiceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/Controllers/SampleDataController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/Pages/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/Pages/Error.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/MemberRepositoryTests.fs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/MemberRepositoryTests.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/TestDependencies.fs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestDependencies.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Controllers/MembersController.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Controllers/TasksController.fs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Controllers/TasksController.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Dependencies.fs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Dependencies.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Repositories/MemberRepository.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Repositories/TaskRepository.fs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Repositories/TaskRepository.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/TodoApi.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/TodoApi.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Types/Member.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Workflows/MemberWorkflows.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApi/Workflows/TaskWorkflows.fs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Workflows/TaskWorkflows.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/todo.sln" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>client</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tests/MemberRepositoryTests.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/TestDependencies.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TodoApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TodoApp/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TodoApp/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TodoApp/Controllers/SampleDataController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tests/TestDependencies.fs" />
+        <option value="$PROJECT_DIR$/Tests/MemberRepositoryTests.fs" />
+        <option value="$PROJECT_DIR$/TodoApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/TodoApp/TodoApp.csproj" />
+        <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.todo/.idea/indexLayout.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.todo/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1225" />
+    <option name="height" value="757" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="todo" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="todo" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="TodoApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.TodoApp">
+    <configuration name="TodoApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TodoApi/TodoApi.fsproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="TodoApi" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoApi: IIS Express (1)" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TodoApi/TodoApi.fsproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoApi: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TodoApi/TodoApi.fsproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoApp" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TodoApp/TodoApp.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="TodoApp" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoApp: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/TodoApp/TodoApp.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Launch Settings Profile.TodoApi: IIS Express (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cb1cfb1-84b6-404f-9047-b9bfa249d7ba" name="Default Changelist" comment="" />
+      <created>1564585952998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564585952998</updated>
+      <workItem from="1564585957921" duration="2840000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2840000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="23" width="1235" height="777" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24559933" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="TeamCity" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" weight="0.329927" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tests/MemberRepositoryTests.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding>
+            <marker date="1564586171554" expanded="true" signature="16:5073" ph="// ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <marker date="1564587261431" expanded="false" signature="6:296" ph="..." />
+            <marker date="1564587261431" expanded="true" signature="315:2202" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="342:2200" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="401:464" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="687:1024" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="937:1012" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1212:2194" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1259:1336" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1353:1607" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1765:1918" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="1964:2182" ph="{...}" />
+            <marker date="1564587261431" expanded="true" signature="2061:2168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/Pages/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/TodoApp.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/Pages/Error.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1564587261515" expanded="true" signature="24:61" ph="@..." />
+            <marker date="1564587261515" expanded="true" signature="178:291" ph="@..." />
+            <marker date="1564587261515" expanded="true" signature="203:291" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/Controllers/SampleDataController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1564587261514" expanded="false" signature="6:128" ph="..." />
+            <marker date="1564587261514" expanded="true" signature="159:1280" ph="{...}" />
+            <marker date="1564587261514" expanded="true" signature="244:1278" ph="{...}" />
+            <marker date="1564587261514" expanded="true" signature="309:431" ph="{...}" />
+            <marker date="1564587261514" expanded="true" signature="526:879" ph="{...}" />
+            <marker date="1564587261514" expanded="true" signature="663:867" ph="{...}" />
+            <marker date="1564587261514" expanded="true" signature="917:1272" ph="{...}" />
+            <marker date="1564587261514" expanded="true" signature="1116:1262" ph="{...}" />
+            <marker date="1564587261514" expanded="true" signature="1150:1248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/TestDependencies.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding>
+            <marker date="1564586174291" expanded="true" signature="16:441" ph="// ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
