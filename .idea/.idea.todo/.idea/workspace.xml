@@ -24,48 +24,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cb1cfb1-84b6-404f-9047-b9bfa249d7ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TodoApp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/scss/custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/NavMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/NavMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/registerServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/Controllers/SampleDataController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoApp/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/MemberRepositoryTests.fs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/MemberRepositoryTests.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/TestDependencies.fs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/TestDependencies.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Controllers/MembersController.fs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Controllers/TasksController.fs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Controllers/TasksController.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Dependencies.fs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Dependencies.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Repositories/MemberRepository.fs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Repositories/TaskRepository.fs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Repositories/TaskRepository.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/TodoApi.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/TodoApi.fsproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Types/Member.fs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Workflows/MemberWorkflows.fs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApi/Workflows/TaskWorkflows.fs" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Workflows/TaskWorkflows.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.sln" beforeDir="false" afterPath="$PROJECT_DIR$/todo.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.todo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.todo/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.todo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/scss/custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/Layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/NavMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/components/NavMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,17 +53,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -97,11 +66,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Tests/MemberRepositoryTests.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/TestDependencies.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TodoApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TodoApp/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TodoApp/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/TodoApp/Controllers/SampleDataController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -119,6 +86,7 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/.idea.todo/.idea/indexLayout.xml" />
         <option value="$PROJECT_DIR$/.idea/.idea.todo/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.todo/.idea/misc.xml" />
       </list>
     </option>
   </component>
@@ -157,6 +125,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -270,12 +239,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564585952998</updated>
-      <workItem from="1564585957921" duration="2840000" />
+      <workItem from="1564585957921" duration="3263000" />
+      <workItem from="1564590149891" duration="666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2840000" />
+    <option name="totallyTimeSpent" value="3929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,22 +257,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1235" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1236" height="777" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24559933" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="TeamCity" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Build" weight="0.329927" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
@@ -310,18 +269,29 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="TeamCity" order="14" />
+      <window_info anchor="bottom" id="Terminal" order="15" />
+      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="17" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -414,12 +384,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/src/components/FetchData.js" />
+    <entry file="file://$PROJECT_DIR$/TodoApp/ClientApp/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

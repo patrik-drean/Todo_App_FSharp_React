@@ -22,10 +22,32 @@
     <Content Remove="$(SpaRoot)**" />
     <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+    <None Remove="Pages\**" />
+    <Content Remove="Pages\**" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TodoApi\TodoApi.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ClientApp\node_modules\.bin" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="ClientAppORIGINAL\package-lock.json" />
+    <_ContentIncludedByDefault Remove="ClientAppORIGINAL\package.json" />
+    <_ContentIncludedByDefault Remove="ClientAppORIGINAL\public\manifest.json" />
+    <_ContentIncludedByDefault Remove="Pages\Error.cshtml" />
+    <_ContentIncludedByDefault Remove="Pages\_ViewImports.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Pages\**" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
