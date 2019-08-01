@@ -44,6 +44,21 @@ module TaskRepository =
         |> List.map toDomain
         |> List.tryHead
 
+    let add writeData (newTask:Task) =
+        
+        let sql = """
+        insert into tasks
+        values(@id, @description)
+        """
+        
+        let dbParams = ([
+            Database.p "id" newTask.Id
+            Database.p "description" newTask.Description
+            ]
+            |> dict
+        )
+        
+        writeData sql dbParams
 
         //namespace TodoApi.Repositories
 

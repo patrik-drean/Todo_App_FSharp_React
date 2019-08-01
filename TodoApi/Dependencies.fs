@@ -15,8 +15,10 @@ module Dependencies =
 
     let getAllTasks _ = TaskRepository.getAll reader
     let findTaskById = TaskRepository.findById reader
+    let addTask = TaskRepository.add writer
 
     let getAllTasksWorkflow = TaskWorkflows.getAll getAllTasks
     let findTaskByIdWorkflow = TaskWorkflows.findById findTaskById
+    let addTaskWorkflow = TaskWorkflows.add addTask
 
    

@@ -55,6 +55,7 @@ class Form extends React.Component {
           onClick={event => {
             event.preventDefault();
             this.props.addTask(this.state.taskValue);
+            this.setState({taskValue: ""});
           }}
           style={submitButtonStyle}
         >

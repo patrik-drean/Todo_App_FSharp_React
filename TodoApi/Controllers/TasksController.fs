@@ -15,7 +15,7 @@ open Newtonsoft.Json
 
 [<CLIMutable>]
 type TaskModel = {
-    Id : string
+    Id : int
     Description : string
 }   
 
@@ -36,6 +36,13 @@ type TasksController () =
         match task with
         | Some t -> this.Ok(t) :> ActionResult
         | None -> this.NotFound() :> ActionResult
+        
+    [<HttpPost>]
+    member this.Post([<FromBody>] newTask:TaskModel) =
+        Dependencies.addTaskWorkflow 
+            newTask.Id 
+            newTask.Description
+        this.Ok() :> ActionResult
 
 
 
