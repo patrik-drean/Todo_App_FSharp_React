@@ -24,6 +24,13 @@ class TaskList extends React.Component {
         return task.id !== id;
       });
 
+        fetch(`api/Tasks/${id}`, {
+          method: 'DELETE',
+          headers: {'Content-Type': 'application/json'}
+        })
+        .then(res => res.text())
+        .then(res => console.log(res))
+
       this.setState({ tasks: updatedTasks });
     };
 

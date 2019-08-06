@@ -44,7 +44,7 @@ type TasksController () =
             newTask.Description
         this.Ok() :> ActionResult
 
-    [<HttpDelete>]
+    [<HttpDelete("{id}")>]
     member this.Delete(id:int) =
         Dependencies.deleteTaskWorkflow id
         this.Ok() :> ActionResult
