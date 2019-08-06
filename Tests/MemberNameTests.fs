@@ -1,40 +1,40 @@
 namespace Tests
 
-open System
-open Xunit
-open Swensen.Unquote
-open TodoApi.Logic
-open TodoApi.Types
+//open System
+//open Xunit
+//open Swensen.Unquote
+//open TodoApi.Logic
+//open TodoApi.Types
 
-module MemberNameTests =
+//module MemberNameTests =
 
-    [<Fact>]
-    let ``capitalizeFirstLetter will capitalize first letter of word that is passed in`` () = 
-        //setup
-        let longWord = "trichotillomania"
-        let shortWord = "j"
+    //[<Fact>]
+    //let ``capitalizeFirstLetter will capitalize first letter of word that is passed in`` () = 
+    //    //setup
+    //    let longWord = "trichotillomania"
+    //    let shortWord = "j"
 
-        //execute
-        let resultFirstName = MemberName.capitalizeFirstLetter longWord
-        let resultLastName = MemberName.capitalizeFirstLetter shortWord
+    //    //execute
+    //    let resultFirstName = MemberName.capitalizeFirstLetter longWord
+    //    let resultLastName = MemberName.capitalizeFirstLetter shortWord
 
-        //verify
-        test <@ resultFirstName = "Trichotillomania" @>
-        test <@ resultLastName = "J" @>
+    //    //verify
+    //    test <@ resultFirstName = "Trichotillomania" @>
+    //    test <@ resultLastName = "J" @>
 
-    [<Fact>]
-    let ``format will ensure name is trimmed remove empty spaces and capitalized correctly`` () = 
-        //setup
-        let firstName = "  jack son"
-        let lastName = "hendric kson    "
+    //[<Fact>]
+    //let ``format will ensure name is trimmed remove empty spaces and capitalized correctly`` () = 
+        ////setup
+        //let firstName = "  jack son"
+        //let lastName = "hendric kson    "
 
-        //execute
-        let resultFirstName = MemberName.format firstName
-        let resultLastName = MemberName.format lastName
+        ////execute
+        //let resultFirstName = MemberName.format firstName
+        //let resultLastName = MemberName.format lastName
 
-        //verify
-        test <@ resultFirstName = "Jackson" @>
-        test <@ resultLastName = "Hendrickson" @>
+        ////verify
+        //test <@ resultFirstName = "Jackson" @>
+        //test <@ resultLastName = "Hendrickson" @>
 
 
 

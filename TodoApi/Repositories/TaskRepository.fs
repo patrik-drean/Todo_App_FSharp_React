@@ -57,7 +57,22 @@ module TaskRepository =
             ]
             |> dict
         )
-        
+
+        writeData sql dbParams
+
+    let delete writeData (id:int) =
+
+        let sql = """
+            delete from tasks
+            where id = @id
+        """
+
+        let dbParams = ([
+            Database.p "id" id
+            ]
+            |> dict
+        )
+
         writeData sql dbParams
 
         //namespace TodoApi.Repositories

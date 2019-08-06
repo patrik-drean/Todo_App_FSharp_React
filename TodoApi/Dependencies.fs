@@ -12,13 +12,14 @@ module Dependencies =
 
     let writer: string -> obj -> unit = Database.writeData connectionString
 
-
     let getAllTasks _ = TaskRepository.getAll reader
     let findTaskById = TaskRepository.findById reader
     let addTask = TaskRepository.add writer
+    let deleteTask = TaskRepository.delete writer
 
     let getAllTasksWorkflow = TaskWorkflows.getAll getAllTasks
     let findTaskByIdWorkflow = TaskWorkflows.findById findTaskById
     let addTaskWorkflow = TaskWorkflows.add addTask
+    let deleteTaskWorkflow = TaskWorkflows.delete deleteTask
 
    
