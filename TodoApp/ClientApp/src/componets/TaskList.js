@@ -28,8 +28,6 @@ class TaskList extends React.Component {
           method: 'DELETE',
           headers: {'Content-Type': 'application/json'}
         })
-        .then(res => res.text())
-        .then(res => console.log(res))
 
       this.setState({ tasks: updatedTasks });
     };
@@ -37,18 +35,15 @@ class TaskList extends React.Component {
     let addTask = taskDescription => {
       let tasks = this.state.tasks;
       let newTask = { id: tasks.length + 1, description: taskDescription };
-      this.setState({ tasks: [...tasks, newTask] });
+        this.setState({ tasks: [...tasks, newTask] });
+
+        fetch(`api/Tasks/`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(newTask)
+
+        })
     };
-
-    // let editTask = (idToEdit) => {
-    //     let updatedTasks = this.state.tasks.filter(function (task) {
-    //         if (task.id !== idToEdit) {
-
-    //         }
-    //     });
-
-    //     this.setState({tasks: updatedTasks});
-    // }
 
     let taskComponentList = this.state.tasks.map(task => (
       <Task {...task} key={task.id} deleteTask={deleteTask} />
