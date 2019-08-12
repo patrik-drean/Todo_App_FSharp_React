@@ -63,14 +63,14 @@
               <e p="babel__traverse" t="IncludeRecursive" />
               <e p="istanbul-lib-coverage" t="IncludeRecursive" />
               <e p="istanbul-lib-report" t="IncludeRecursive" />
-              <e p="node" t="IncludeRecursive" />
-              <e p="unist" t="IncludeRecursive" />
-              <e p="vfile-message" t="IncludeRecursive" />
             </e>
             <e p="react" t="IncludeRecursive" />
             <e p="react-dom" t="IncludeRecursive" />
+            <e p="react-redux" t="IncludeRecursive" />
             <e p="react-scripts" t="IncludeRecursive" />
+            <e p="redux" t="IncludeRecursive" />
           </e>
+          <e p="package-lock.json" t="Include" />
           <e p="package.json" t="Include" />
           <e p="public" t="Include">
             <e p="favicon.ico" t="Include" />
@@ -111,6 +111,6 @@
       </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_todo.-1264011767.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_todo.513997464.00" t="ExcludeRecursive" />
   </component>
 </project>

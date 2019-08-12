@@ -1,8 +1,17 @@
 import React from 'react';
+import { createStore } from 'redux';
 import Task from './Task';
 import Form from './Form';
 
+function reducer(state, action) {
+    return state;
+}
+
+const store  = createStore(reducer);
+
 class TaskList extends React.Component {
+ 
+
   constructor(props) {
     super(props);
 
