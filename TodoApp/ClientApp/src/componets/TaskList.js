@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import {ADD_TASK, DELETE_TASK} from '../actions/actions.js';
 import Task from './Task';
 import Form from './Form';
 
@@ -20,28 +21,11 @@ class TaskList extends React.Component {
     }
     
     deleteTask = id => {
-        let updatedTasks = this.state.tasks.filter(task => {
-            return task.id !== id;
-        });
-
-        fetch(`api/Tasks/${id}`, {
-            method: 'DELETE',
-            headers: { 'Content-Type': 'application/json' }
-        });
-
-        this.setState({ tasks: updatedTasks });
+        this.props.dispatch({type: DELETE_TASK, payload: {id} });
     };
 
     addTask = taskDescription => {
-        let tasks = this.state.tasks;
-        let newTask = { id: tasks.length + 1, description: taskDescription };
-        this.setState({ tasks: [...tasks, newTask] });
-
-        fetch(`api/Tasks/`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(newTask)
-        });
+        this.props.dispatch({type: ADD_TASK, payload: {taskDescription} });
     };
 
     render() {
