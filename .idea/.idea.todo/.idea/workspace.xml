@@ -24,15 +24,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cb1cfb1-84b6-404f-9047-b9bfa249d7ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/reducers/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.todo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.todo/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.todo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.todo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.todo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoApi/Repositories/Scripts/todo.db" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApi/Repositories/Scripts/todo.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/actions/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/TaskList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/reducers/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/reducers/reducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TodoApp/ClientApp/src/sagas/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/ClientApp/src/sagas/sagas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApp/TodoApp.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +65,7 @@
     <setting file="file://$PROJECT_DIR$/Tests/MemberRepositoryTests.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tests/TestDependencies.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TodoApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/ValidationTests.fs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TodoApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -87,8 +87,8 @@
         <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/sagas/index.js" />
         <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/App.js" />
         <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/actions/actions.js" />
-        <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/TaskList.js" />
         <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/reducers/reducers.js" />
+        <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/componets/TaskList.js" />
         <option value="$PROJECT_DIR$/TodoApp/ClientApp/src/sagas/sagas.js" />
       </list>
     </option>
@@ -113,7 +113,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,7 +273,7 @@
       <workItem from="1565727454890" duration="4477000" />
       <workItem from="1565889825259" duration="8742000" />
       <workItem from="1565984739036" duration="867000" />
-      <workItem from="1566227822672" duration="3051000" />
+      <workItem from="1566227822672" duration="5263000" />
     </task>
     <servers />
   </component>
@@ -318,6 +318,8 @@
     <state x="773" y="381" key="SettingsEditor/2560.1440/2560.1440" />
     <state x="792" y="479" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" />
     <state x="792" y="479" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/2560.1440/2560.1440" />
+    <state x="946" y="412" width="667" height="639" key="find.popup" />
+    <state x="946" y="412" width="667" height="639" key="find.popup/2560.1440/2560.1440" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

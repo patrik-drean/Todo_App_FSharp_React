@@ -2,21 +2,13 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Task from './Task';
 import Form from './Form';
-import {ADD_TASK_SAGA, DELETE_TASK_SAGA} from '../actions/actions';
+import {ADD_TASK_SAGA, DELETE_TASK_SAGA, GET_ALL_TASKS_SAGA} from '../actions/actions';
 
 class TaskList extends React.Component {
     constructor(props) {
         super(props);
-
-        this.state = {
-            tasks: []
-        };
-
-        fetch('api/Tasks')
-            .then(response => response.json())
-            .then(data => {
-                this.setState({ tasks: data, loading: false });
-            });
+        
+        this.props.dispatch({type: GET_ALL_TASKS_SAGA});
     }
     
     deleteTask = id => {
