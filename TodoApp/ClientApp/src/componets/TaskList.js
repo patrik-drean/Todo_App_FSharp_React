@@ -1,9 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import {ADD_TASK, DELETE_TASK} from '../actions/actions.js';
 import Task from './Task';
 import Form from './Form';
-
+import {ADD_TASK_SAGA, DELETE_TASK_SAGA} from '../actions/actions';
 
 class TaskList extends React.Component {
     constructor(props) {
@@ -21,11 +20,11 @@ class TaskList extends React.Component {
     }
     
     deleteTask = id => {
-        this.props.dispatch({type: DELETE_TASK, payload: {id} });
+        this.props.dispatch({type: DELETE_TASK_SAGA, payload: {id} });
     };
 
     addTask = taskDescription => {
-        this.props.dispatch({type: ADD_TASK, payload: {taskDescription} });
+        this.props.dispatch({type: ADD_TASK_SAGA, payload: {taskDescription} });
     };
 
     render() {

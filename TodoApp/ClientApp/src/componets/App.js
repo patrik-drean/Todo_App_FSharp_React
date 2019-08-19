@@ -1,9 +1,11 @@
 import React from 'react';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux'
+import createSagaMiddleware from 'redux-saga'
 import { Provider } from 'react-redux';
 import '../styles/App.css';
-import '../sagas/sagas.js';
 import TaskList from './TaskList';
+import reducer from '../reducers/reducers.js';
+import rootSaga from '../sagas/sagas.js';
 
 const appStyle = {
     padding: '20px',
@@ -11,39 +13,12 @@ const appStyle = {
     height: '100vh'
 };
 
-const initialState = {
-    tasks: [{ id: 1, description: 'Hardcoded Value' }]
-};
-
-function reducer(state = initialState, action) {
-    switch (action.type) {
-        case 'ADD_TASK':
-            const nextId = state.tasks[state.tasks.length-1].id + 1; //TODO
-            const newTask = { id: nextId, description: action.payload.taskDescription };
-            
-            
-            return {
-                tasks: [...state.tasks, newTask]
-            };
-        case 'DELETE_TASK':
-            let updatedTasks = state.tasks.filter(task => {
-                return task.id !== action.payload.id;
-            });
-
-            fetch(`api/Tasks/${action.payload.id}`, {
-                method: 'DELETE',
-                headers: { 'Content-Type': 'application/json' }
-            });
-
-            return {
-                tasks: updatedTasks
-            };
-        default:
-            return state;
-    }
-}
-
-const store = createStore(reducer);
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(
+    reducer,
+    applyMiddleware(sagaMiddleware)
+);
+sagaMiddleware.run(rootSaga);
 
 class App extends React.Component {
     render() {

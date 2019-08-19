@@ -53,23 +53,49 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="ClientApp" t="Include">
-          <e p="node_modules" t="Include">
-            <e p=".bin" t="Include" />
-            <e p="@babel/parser" t="IncludeRecursive" />
-            <e p="@babel/Types" t="IncludeRecursive" />
-            <e p="@types" t="IncludeRecursive">
-              <e p="babel__generator" t="IncludeRecursive" />
-              <e p="babel__template" t="IncludeRecursive" />
-              <e p="babel__traverse" t="IncludeRecursive" />
-              <e p="istanbul-lib-coverage" t="IncludeRecursive" />
-              <e p="istanbul-lib-report" t="IncludeRecursive" />
-            </e>
-            <e p="react" t="IncludeRecursive" />
-            <e p="react-dom" t="IncludeRecursive" />
-            <e p="react-redux" t="IncludeRecursive" />
-            <e p="react-scripts" t="IncludeRecursive" />
-            <e p="redux" t="IncludeRecursive" />
+          <e p="node_modules/@babel/parser" t="IncludeRecursive" />
+          <e p="node_modules/@babel/Types" t="IncludeRecursive" />
+          <e p="node_modules/@jest/console" t="IncludeRecursive" />
+          <e p="node_modules/@jest/fake-timers" t="IncludeRecursive" />
+          <e p="node_modules/@jest/source-map" t="IncludeRecursive" />
+          <e p="node_modules/@jest/test-result" t="IncludeRecursive" />
+          <e p="node_modules/@jest/Types" t="IncludeRecursive" />
+          <e p="node_modules/@redux-saga/core" t="IncludeRecursive" />
+          <e p="node_modules/@redux-saga/deferred" t="IncludeRecursive" />
+          <e p="node_modules/@redux-saga/delay-p" t="IncludeRecursive" />
+          <e p="node_modules/@redux-saga/is" t="IncludeRecursive" />
+          <e p="node_modules/@redux-saga/symbols" t="IncludeRecursive" />
+          <e p="node_modules/@redux-saga/Types" t="IncludeRecursive" />
+          <e p="node_modules/@types" t="IncludeRecursive">
+            <e p="babel__generator" t="IncludeRecursive" />
+            <e p="babel__template" t="IncludeRecursive" />
+            <e p="babel__traverse" t="IncludeRecursive" />
+            <e p="istanbul-lib-coverage" t="IncludeRecursive" />
+            <e p="istanbul-lib-report" t="IncludeRecursive" />
           </e>
+          <e p="node_modules/babel-jest" t="IncludeRecursive" />
+          <e p="node_modules/chalk" t="IncludeRecursive" />
+          <e p="node_modules/dotenv-expand" t="IncludeRecursive" />
+          <e p="node_modules/jest" t="IncludeRecursive" />
+          <e p="node_modules/jest-haste-map" t="IncludeRecursive" />
+          <e p="node_modules/jest-message-util" t="IncludeRecursive" />
+          <e p="node_modules/jest-mock" t="IncludeRecursive" />
+          <e p="node_modules/jest-resolve" t="IncludeRecursive" />
+          <e p="node_modules/jest-serializer" t="IncludeRecursive" />
+          <e p="node_modules/jest-util" t="IncludeRecursive" />
+          <e p="node_modules/jest-worker" t="IncludeRecursive" />
+          <e p="node_modules/react" t="IncludeRecursive" />
+          <e p="node_modules/react-dom" t="IncludeRecursive" />
+          <e p="node_modules/react-redux" t="IncludeRecursive" />
+          <e p="node_modules/react-scripts" t="IncludeRecursive" />
+          <e p="node_modules/realpath-native" t="IncludeRecursive" />
+          <e p="node_modules/redux" t="IncludeRecursive" />
+          <e p="node_modules/redux-saga" t="IncludeRecursive" />
+          <e p="node_modules/rxjs" t="IncludeRecursive" />
+          <e p="node_modules/source-map" t="IncludeRecursive" />
+          <e p="node_modules/symbol-observable" t="IncludeRecursive" />
+          <e p="node_modules/tslib" t="IncludeRecursive" />
+          <e p="node_modules/worker-farm" t="IncludeRecursive" />
           <e p="package-lock.json" t="Include" />
           <e p="package.json" t="Include" />
           <e p="public" t="Include">
@@ -80,6 +106,9 @@
           </e>
           <e p="README.md" t="Include" />
           <e p="src" t="Include">
+            <e p="actions" t="Include">
+              <e p="actions.js" t="Include" />
+            </e>
             <e p="App.test.js" t="Include" />
             <e p="componets" t="Include">
               <e p="App.js" t="Include" />
@@ -88,6 +117,12 @@
               <e p="TaskList.js" t="Include" />
             </e>
             <e p="index.js" t="Include" />
+            <e p="reducers" t="Include">
+              <e p="reducers.js" t="Include" />
+            </e>
+            <e p="sagas" t="Include">
+              <e p="sagas.js" t="Include" />
+            </e>
             <e p="serviceWorker.js" t="Include" />
             <e p="styles" t="Include">
               <e p="App.css" t="Include" />
@@ -110,7 +145,8 @@
         <e p="TodoApp.csproj" t="IncludeRecursive" />
       </e>
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_todo.513997464.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_todo.-1600864515.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
   </component>
 </project>
